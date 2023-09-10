@@ -1,0 +1,11 @@
+mqtt_broker:
+  broker_address: mqtt.eclipse.org
+  port: 1883
+  username: "your_username"
+  password: "your_password"
+  keepalive: 60
+
+topics:
+  - topic: your/topic1
+  - topic: your/topic2
+  - topic: your/topic3
